@@ -1,28 +1,121 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>proyec</title>
-    
+    <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-green-500">
-    <h1 class="text-red-500">probando tailwill</h1>
-    <div class="bg-blue-400">
-        <h2 class="text-purple-700">LEONEL</h2>
+    <h1 class="text-red-500">Hola mundo, probando Tailwind</h1>
+
+    <div class="bg-yellow-400">
+        <h2 class="text-blue-200">LEONEL EMILIO QUISPE</h2>
     </div>
-    <div class="container bg-yellow-600">
-        <p class="font-sans">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nisi veritatis iusto adipisci, accusantium, at, est reprehenderit debitis laboriosam ad eos nesciunt neque tempore aliquam animi fugiat recusandae similique. Facere.</p>
+    <div class="container bg-pink-500">
+        <p class="font-sans">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Accusantium commodi ipsum doloribus quaerat autem repudiandae harum fugit, 
+            error quos quae rem vero. At magni id, eos expedita consequatur dolorum. Nesciunt?</p>
     </div>
-    <div class="container columns-2">
-        <div class="w-96 bg-blue-400 rounder-full">
-            <img src="imagene/Sin título.jpg" alt="">
-        </div>
-        <div class="w-150">
-            <img src="imagene/imagen2.webp" alt="">
-        </div>
+    <!--*******-->
+
+<div class="grid grid-cols-3 gap-8 items-center justify-items-center">
+
+
+    <div class="w-40 h-40 rounded-full overflow-hidden">
+        <img 
+            src="imagene/imagen2.webp" 
+            alt="Imagen con efecto blur"
+            class="w-full h-full object-cover blur-sm"
+        >
     </div>
+
+   
+    <div class="w-40 h-40 rounded-full overflow-hidden">
+        <img 
+            src="imagene/Sin título.jpg" 
+            alt="Imagen con efecto de opacidad"
+            class="w-full h-full object-cover opacity-50"
+        >
+    </div>
+
+    <div class="w-40 h-40 rounded-full overflow-hidden">
+        <img 
+            src="imagene/imagen2.webp" 
+            alt="Imagen en escala de grises"
+            class="w-full h-full object-cover grayscale"
+        >
+    </div>
+
+</div>
+
+
+<div class="grid grid-cols-3 text-center mt-8 mb-4">
+
+    <div>
+        <h2 class="text-3xl font-semibold text-gray-800">
+            intensidad
+        </h2>
+    </div>
+
+    <div>
+        <h2 class="text-3xl font-semibold text-gray-800">
+            opacidad
+        </h2>
+    </div>
+
+    <div>
+        <h2 class="text-3xl font-semibold text-gray-800">
+            fibre
+        </h2>
+    </div>
+
+</div>
+
+
+
+<div class="grid grid-cols-3 gap-8 justify-items-center">
+
+
+    <div class="w-40 h-36 overflow-hidden">
+        <img 
+            src="imagene/Sin título.jpg" 
+            alt="Imagen con intensidad"
+            class="w-full h-full object-cover saturate-150"
+        >
+    </div>
+
+    <div class="w-40 h-36 overflow-hidden">
+        <img 
+            src="imagene/imagen2.webp" 
+            alt="Imagen con brillo"
+            class="w-full h-full object-cover brightness-75"
+        >
+    </div>
+
+
+    <div class="w-40 h-36 overflow-hidden">
+        <img 
+            src="imagene/Sin título.jpg" 
+            alt="Imagen con contraste"
+            class="w-full h-full object-cover contrast-150"
+        >
+    </div>
+
+</div>
+
+
+
+<div class="border-8 border-gray-700 bg-yellow-300 mt-4 py-4">
+
+    <p class="text-center text-3xl font-medium text-gray-700">
+        diseñado por:LEONEL EMILIO DIÑLAN
+    </p>
+
+</div>
+
+
 </body>
 </html>
